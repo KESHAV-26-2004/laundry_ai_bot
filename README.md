@@ -66,18 +66,19 @@ final response = await http.post(
 ---
 
 📎 Related Repo
+
 👉 Laundry App GitHub:
 https://github.com/KESHAV-26-2004/laundry-app
 
 ---
 
 👨‍💻 Developed By
+
 Keshav Verma
 Bennett University | BTech CSE
-GitHub
 
 📜 License
 
-This project and model are developed entirely by me.
+This project and model are trained entirely by me.
 
 You’re welcome to learn from or extend it, but please don't redistribute the model without permission.
