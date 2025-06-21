@@ -65,6 +65,27 @@ final response = await http.post(
 ```
 ---
 
+🌐 Public Access via ngrok
+To connect this local API with the Flutter app, we used ngrok to expose the Flask server to the internet.
+
+Steps:
+```bash
+ngrok http 5000
+This will give you a public URL like:
+```
+
+```arduino
+https://abc1234.ngrok.io
+Use this in your Flutter app inside connect.dart:
+```
+
+```dart
+Uri.parse("https://abc1234.ngrok.io/get-response");
+```
+⚠️ Note: ngrok URLs change every time unless you have a paid plan with a reserved domain.
+
+---
+
 📎 Related Repo
 
 👉 Laundry App GitHub:
@@ -76,6 +97,8 @@ https://github.com/KESHAV-26-2004/laundry-app
 
 Keshav Verma
 Bennett University | BTech CSE
+
+---
 
 📜 License
 
